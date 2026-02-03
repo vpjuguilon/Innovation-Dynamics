@@ -10,7 +10,7 @@ Applying classical mechanics and phase space analysis to global patent datasets 
 
 **Patent Kinematics** is a data science framework that treats global innovation not as a static count of documents, but as a dynamic physical system. By applying kinematic equations to patent datasets (Google Patents Public Data), this tool generates **Phase Space Trajectories** ($v$ vs $a$) to identify technology lifecycles, hype bubbles, and stagnation points.
 
-## 🚀 The Concept
+## The Concept
 
 Standard patent analysis relies on bar charts (Position $x$). This project calculates the derivatives of innovation to reveal the hidden "forces" driving the market.
 
@@ -22,7 +22,7 @@ Standard patent analysis relies on bar charts (Position $x$). This project calcu
 
 By plotting **Velocity vs. Acceleration**, we generate a "Hysteresis Loop" that visually distinguishes between a booming technology (top-right quadrant) and a dying one (bottom-right quadrant), even if they have the same number of annual filings.
 
-## 📊 Features
+## Features
 
 * **BigQuery Integration:** SQL queries optimized for the Google Patents Public Dataset (`patents-public-data.patents.publications`).
 * **"Unit of Innovation" Logic:** Strictly filters for simple patent families and priority dates to eliminate administrative noise (dupes/continuations).
@@ -32,7 +32,7 @@ By plotting **Velocity vs. Acceleration**, we generate a "Hysteresis Loop" that 
   * **Panel B (Lifecycle Phase Space):** $v$ vs $a$ (The Hype Cycle Loop).
 * **Lag Correction:** Automatic filtering of the 18-month publication lag to prevent false "crash" signals.
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 patent-kinematics/
