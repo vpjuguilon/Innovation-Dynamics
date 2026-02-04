@@ -35,7 +35,7 @@ By plotting **Velocity vs. Acceleration**, we generate a "Hysteresis Loop" that 
 ## Project Structure
 
 ```bash
-patent-kinematics/
+Innovation-Dynamics/
 ├── data/
 │   └── example_counts.csv    # Sample data for G06N (AI) and B60W (Autonomous Vehicles)
 ├── sql/
